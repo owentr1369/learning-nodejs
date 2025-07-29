@@ -1,1 +1,5 @@
-console.log("This is my first node app");
+const sayHi = require("./module.js");
+
+const userName = "Peter";
+
+sayHi(userName);
